@@ -1,26 +1,15 @@
-h1 {
-    color : red;
-}
-
-p, li {
-    color : green;
-}
-
-li {
-    list-style-type: square;
-}
-
-.special {
-    color: orange;
-    font-weight: bold;
-}
-
-li em {
+.main {
     color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
 }
 
-body h1 + p .special {
-  color: yellow;
-  background-color: black;
-  padding: 5px;
+.special li {
+    color: inherit;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.special ul {
+    display: inline-flex;
 }
